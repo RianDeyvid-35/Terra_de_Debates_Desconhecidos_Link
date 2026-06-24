@@ -1,7 +1,0 @@
-{
-  "name": "terra-de-debates-cloudflare",
-  "version": "1.0.0",
-  "scripts": {
-    "build": "echo 'Ignorando build: projeto puramente estatico'"
-  }
-}
