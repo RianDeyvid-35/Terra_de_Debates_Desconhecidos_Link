@@ -1,0 +1,9 @@
+# Redireciona bots conhecidos ou requisições suspeitas para a página de erro da Cloudflare
+/wp-admin* https://www.cloudflare.com/5xx-error-landing/ 403
+/admin* https://www.cloudflare.com/5xx-error-landing/ 403
+/.env* https://www.cloudflare.com/5xx-error-landing/ 403
+
+# Regra de Teste para o seu Trabalho: 
+# Se quiser simular que o Firewall bloqueou o acesso geral para tirar print:
+# Descomente a linha abaixo (apague a hashtag #) para mandar todo mundo para o bloqueio
+# /* https://www.cloudflare.com/5xx-error-landing/ 302
